@@ -3,8 +3,8 @@ function Dove() {
 }
 Dove.prototype.sleep = function () {
     console.log("Sleeping...")
-    Dove.prototype.fly = function () {
-        console.log("Flying...")
-    }
+}
+Dove.prototype.fly = function () {
+    console.log("Flying...")
 }
 module.exports = Dove
