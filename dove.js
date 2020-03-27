@@ -1,5 +1,5 @@
 function Dove() {
-
+    this.name = name;
 }
 Dove.prototype.sleep = function () {
     console.log("Sleeping...")
