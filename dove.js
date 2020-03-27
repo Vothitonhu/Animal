@@ -7,4 +7,7 @@ Dove.prototype.sleep = function () {
 Dove.prototype.fly = function () {
     console.log("Flying...")
 }
+Dove.prototype.run = function () {
+    console.log('Dove run slowly...')
+}
 module.exports = Dove
