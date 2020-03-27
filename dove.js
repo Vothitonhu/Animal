@@ -10,7 +10,4 @@ Dove.prototype.fly = function () {
 Dove.prototype.run = function () {
     console.log('Dove run slowly...')
 }
-Dove.prototype.swim = function () {
-    console.log('Dove can not swim ...')
-}
 module.exports = Dove
