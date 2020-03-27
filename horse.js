@@ -10,4 +10,10 @@ Horse.prototype.run = function () {
 Horse.prototype.eat = function () {
     console.log('Horse eat grass')
 }
+Horse.prototype.fly = function () {
+    console.log('Horse can not fly ...');
+}
+Horse.prototype.swim = function () {
+    console.log('Horse can not swim ...');
+}
 module.exports = Horse
